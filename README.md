@@ -6,7 +6,7 @@ FlipCard is a modern, interactive web application that simulates a flipping cred
 
 ## 🌐 Demo (Live Preview)
 
-**🔗 Live Preview:** []()
+**🔗 Live Preview:** [https://ahmed-maher77.github.io/FlipCard___An-interactive-credit-card-UI](https://ahmed-maher77.github.io/FlipCard___An-interactive-credit-card-UI/)
 
 ---
 
@@ -39,7 +39,7 @@ FlipCard is a modern, interactive web application that simulates a flipping cred
 
 ## 👀 Website Preview
 
-<a href="" title="demo">
+<a href="https://ahmed-maher77.github.io/FlipCard___An-interactive-credit-card-UI/" title="demo">
   <img src="uploaded-img-on-github-readme" alt="website preview" width="400">
 </a>
 
@@ -49,8 +49,8 @@ FlipCard is a modern, interactive web application that simulates a flipping cred
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/flipcard.git
-   cd flipcard
+   git clone https://github.com/Ahmed-Maher77/FlipCard___An-interactive-credit-card-UI.git
+   cd FlipCard___An-interactive-credit-card-UI
    ```
 2. **Install The Project Dependencies**
    ```
