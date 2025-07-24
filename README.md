@@ -40,7 +40,7 @@ FlipCard is a modern, interactive web application that simulates a flipping cred
 ## 👀 Website Preview
 
 <a href="https://ahmed-maher77.github.io/FlipCard___An-interactive-credit-card-UI/" title="demo">
-  <img src="uploaded-img-on-github-readme" alt="website preview" width="400">
+  <img src="https://github.com/user-attachments/assets/e7015d44-77cb-4efc-9936-3741258f1896" alt="website preview" width="400">
 </a>
 
 ---
