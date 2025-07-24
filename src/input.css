@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--bg-black: #000;
+	--bg-white: #fff;
+	--bg-offwhite: #ffffff22;
+	--c-black: #000;
+	--c-white: #fff;
+}
+
+/* ================ Reusable Classes ================ */
+/* color */
+.bg-black {
+	background-color: var(--bg-black);
+}
+.bg-white {
+	background-color: var(--bg-white);
+}
+.bg-offwhite {
+	background-color: var(--bg-offwhite);
+}
+.c-black {
+	color: var(--c-black);
+}
+.c-white {
+	color: var(--c-white);
+}
+
+
+/* Credit Card */
+.credit-card {
+	perspective: 1000px;
+	&::before {
+		content: "";
+		position: absolute;
+		height: 240px;
+		width: 240px;
+		border-radius: 50%;
+		transform: translate(-150px, -100px);
+		background: linear-gradient(90deg, #9c27b0, #f3f5f5);
+		z-index: -1;
+	}
+	&::after {
+		content: "";
+        position: absolute;
+        height: 240px;
+        width: 240px;
+        border-radius: 50%;
+        transform: translate(389px, -128px);
+        background: linear-gradient(90deg, #9c27b0, #f3f5f5);
+        z-index: -1;
+	}
+	& > div {
+		position: relative;
+		height: 280px;
+		width: 100%;
+		max-width: 500px;
+		z-index: 100;
+		transition: 0.6s;
+		transform-style: preserve-3d;
+	}
+	& > div:hover {
+		transform: rotateY(180deg);
+	}
+	.front-face,
+	.back-face {
+		box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		backface-visibility: hidden;
+		transform-style: preserve-3d;
+	}
+    .front-face {
+        backface-visibility: hidden;
+    }
+	.back-face {
+        border: none;
+        transform: rotateY(180deg);
+        backface-visibility: hidden;
+		.ribbon {
+			width: calc(100% + 1.5px);
+		}
+	}
+}
+
+
+footer {
+	a:hover {
+		color: #80cbc4 !important;
+	}
+}
