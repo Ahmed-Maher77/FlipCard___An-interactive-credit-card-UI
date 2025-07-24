@@ -31,12 +31,6 @@ FlipCard is a modern, interactive web application that simulates a flipping cred
 
 ---
 
-## 🎥 Watch the Demo on LinkedIn
-
-**🎬 Watch Demo on LinkedIn:** [coming soon]()
-
----
-
 ## 👀 Website Preview
 
 <a href="https://ahmed-maher77.github.io/FlipCard___An-interactive-credit-card-UI/" title="demo">
